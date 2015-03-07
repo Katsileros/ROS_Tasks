@@ -1,0 +1,6 @@
+<launch>
+	<node type="data_fusion" name="data_fusion" pkg="simple_robot"  output="screen" />
+	<node type="robot_position" name="robot_position" pkg="simple_robot"  output="screen" />
+	<node type="final_node" name="final_node" pkg="simple_robot"  output="screen" />
+	<node type="thermal_sensor" name="thermal_sensor" pkg="simple_robot"  output="screen" />	
+</launch>
