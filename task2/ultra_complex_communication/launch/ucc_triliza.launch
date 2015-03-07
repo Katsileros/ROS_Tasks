@@ -1,0 +1,4 @@
+<launch>
+	<node type="UltraComplexCommunicationClient" name="ucc_client" pkg="ultra_complex_communication"  output="screen" />
+	<node type="UltraComplexCommunicationServer" name="ucc_server" pkg="ultra_complex_communication"  output="screen" />
+</launch>

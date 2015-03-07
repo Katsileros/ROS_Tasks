@@ -1,0 +1,11 @@
+#goal definition
+int32[9] table
+int32 n
+---
+#result definition
+int32[9] table
+int32 n
+---
+#feedback
+int32[9] table
+int32 n
